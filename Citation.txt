@@ -2,4 +2,4 @@ To cite FKM-LO in publications use:
 
 Maria Brigida Ferraro, Marco Forti, Paolo Giordani
 Fuzzy clustering with L0 regularization
-Annals of Operations Research, 2024
+Annals of Operations Research, 2024 (Under submission)
