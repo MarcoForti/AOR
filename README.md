@@ -1,14 +1,15 @@
 # README
 
 This repository contains MATLAB code for performing Fuzzy K-Means clustering with L0 penalisation in the membershi matrix. 
-The code is implemented to determine the optimal number of clusters and penalty parameter based on the Xie & Beni (XB) index.
+The code is implemented to select the optimal number of clusters and penalty parameter based on the Xie & Beni (XB) index.
 
 ## Contents
 - `FKM_L0_Main.m`: Script to set-up parameters, options and to execute the functions.
 - `FKM.m`: Function to perform the Fuzzy K-Means clustering.
 - `FKM_L0.m`: Function to implement FKM-L0 (Non-Exhaustive) clustering with penalty parameter.
-- `FKM_L0_Lambda.m`: Function to perform FKM-L0 (Exhaustive) clustering with penalty parameter.
-- `XB.m`: Function to compute the Xie & Beni (XB) index for evaluating cluster validity.
+- - `FKM_L0_P.m`: Function to perform FKM-L0 (Exhaustive) clustering with penalty parameter.
+- `FKM_L0_Lambda.m`: Function to perform FKM-L0 clustering to select penalty parameter.
+- `XB.m`: Function to compute the Xie & Beni (XB) index.
 - `README.md`: This file explaining the repository contents.
 - `Citation.txt`: This file explaining the article to cite.
 
